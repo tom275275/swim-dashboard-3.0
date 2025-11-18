@@ -15,7 +15,15 @@
 - `oakville_curl.html`: Raw HTML source (reference).
 - `oakville_controller.js`: Client-side controller logic (reference).
 
+## Burlington Swim Schedule
+**Status:** Complete (Data Extraction Verified)
+
+### Achievements
+- **API Re-use:** Successfully adapted the Oakville fetcher logic for Burlington, as both use the PerfectMind platform.
+- **Data Verification:** Confirmed that the Burlington API (`https://cityofburlington.perfectmind.com/22818/...`) returns the same JSON structure.
+- **Coverage:** Verified fetching of all swim types (Lap Swim, Fun Swim, Combo Swim, etc.) across major pools (Aldershot, Angela Coughlan, Centennial, Tansley Woods).
+- **Fetcher Script:** Created `burlington_fetcher.py` which successfully paginates and retrieves future schedules.
+
 ## Next Steps
-- Replicate this success for Burlington (also on PerfectMind).
 - Investigate Mississauga (Active Network).
 - Design the aggregation database/storage.
