@@ -1,0 +1,11 @@
+# Generated output files — recreated by running aggregator.py or individual fetchers
+schedule.json
+mississauga_schedule.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Claude Code and MCP runtime files
+.claude/
+.playwright-mcp/

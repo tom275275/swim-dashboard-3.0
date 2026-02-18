@@ -82,7 +82,7 @@ Key body fields: `calendar_id` (1 = Drop In Programs), `center_ids` (array of in
 
 **All 21 centre IDs:** `[290, 248, 261, 240, 403, 267, 250, 243, 252, 253, 125, 65, 100, 119, 401, 82, 396, 91, 128, 106, 110]`
 
-**Centres with pools (10):** Burnhamthorpe (290), Carmen Corbasson (248), Churchill Meadows (261), Clarkson (240), Erin Meadows (267), Frank McKechnie (243), Huron Park (252), Malton (125), Meadowvale (119), Mississauga Valley (82), River Grove (110).
+**Centres with pools (11):** Burnhamthorpe (290), Carmen Corbasson (248), Churchill Meadows (261), Clarkson (240), Erin Meadows (267), Frank McKechnie (243), Huron Park (252), Malton (125), Meadowvale (119), Mississauga Valley (82), River Grove (110).
 
 ## Next Development Phase
 
