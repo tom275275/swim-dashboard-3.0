@@ -1,0 +1,42 @@
+name: Refresh Schedule Data
+
+on:
+  schedule:
+    # 7 AM ET = noon UTC (EST is UTC-5, EDT is UTC-4; noon UTC covers both)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write  # needed to commit and push schedule.json back to the repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run aggregator
+        run: python aggregator.py
+
+      - name: Copy schedule to dashboard/public
+        run: |
+          mkdir -p dashboard/public
+          cp schedule.json dashboard/public/schedule.json
+
+      - name: Commit and push updated schedule
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/public/schedule.json
+          git diff --staged --quiet || git commit -m "chore: refresh schedule data [skip ci]"
+          git push

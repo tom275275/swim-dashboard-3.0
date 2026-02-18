@@ -2,6 +2,10 @@
 schedule.json
 mississauga_schedule.json
 
+# dashboard/public/schedule.json is NOT ignored — it's committed by GitHub Actions
+# (the root schedule.json above stays ignored; this negation applies to the dashboard copy)
+!dashboard/public/schedule.json
+
 # Python cache
 __pycache__/
 *.pyc
