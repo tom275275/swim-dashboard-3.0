@@ -22,28 +22,45 @@ interface Schedule {
 }
 
 // ── Activity classification ────────────────────────────────────────────────────
-// Family mode: sessions where you can splash around in the leisure/fun pool area.
-// Adult mode: fitness-focused sessions (lane swim, aquafit, etc.).
+// Explicit lists reviewed and confirmed 2026-02-18.
+// Any activity not in FAMILY_ACTIVITIES is treated as adult.
+
+const FAMILY_ACTIVITIES = new Set([
+  'Combo Swim',
+  'Combo Swim (slide closed)',
+  'Drop In Snoezelen Pool Program',
+  'Free Fun Swim: Caribbean Vibes',
+  'Fun & Lane Swim For Women & Girls',
+  'Fun Swim',
+  'Fun Swim For Women and Girls',
+  'Fun Swim For Women and Girls - Therapeutic Pool',
+  'Fun Swim with Lane For Men and Boys',
+  'Fun Swim with Lane For Women and Girls',
+  'Lane & Fun Swim',
+  'Leisure Swim',
+  'Leisure Swim (leisure pool only)',
+  'Leisure Swim - Leisure Pool Only',
+  'Parent & Tot Swim',
+  'Sensory Friendly Swim',
+  'Sensory Swim',
+])
+
+const SENSORY_ACTIVITIES = new Set([
+  'Sensory Swim',
+  'Sensory Friendly Swim',
+  'Drop In Snoezelen Pool Program',
+])
 
 function isFamilyActivity(activity: string): boolean {
-  const a = activity.toLowerCase()
-  return (
-    a.includes('fun swim') ||
-    a.includes('fun & lane swim') ||
-    a.includes('lane & fun') ||
-    a.includes('parent & tot') ||
-    a.includes('sensory') ||
-    a.includes('leisure swim') ||
-    a.includes('combo swim')
-  )
+  return FAMILY_ACTIVITIES.has(activity)
 }
 
 function isSensoryActivity(activity: string): boolean {
-  return activity.toLowerCase().includes('sensory')
+  return SENSORY_ACTIVITIES.has(activity)
 }
 
 function isAdultActivity(activity: string): boolean {
-  return !isFamilyActivity(activity)
+  return !FAMILY_ACTIVITIES.has(activity)
 }
 
 // ── City styling ──────────────────────────────────────────────────────────────
