@@ -84,6 +84,34 @@ Key body fields: `calendar_id` (1 = Drop In Programs), `center_ids` (array of in
 
 **Centres with pools (11):** Burnhamthorpe (290), Carmen Corbasson (248), Churchill Meadows (261), Clarkson (240), Erin Meadows (267), Frank McKechnie (243), Huron Park (252), Malton (125), Meadowvale (119), Mississauga Valley (82), River Grove (110).
 
-## Next Development Phase
+## Frontend Dashboard
 
-The aggregation layer is complete — `schedule.json` contains normalized events from all three cities. The next step is building a **frontend dashboard** to display the unified results (filter by city, activity type, time of day, etc.).
+**Location:** `dashboard/` — Next.js 16 app (TypeScript + Tailwind CSS)
+
+**Deployed at:** https://dashboard-red-two-63.vercel.app (Vercel, auto-deploys on push to `main`)
+
+### Running locally
+```bash
+cd dashboard
+npm install
+npm run dev   # opens localhost:3000
+```
+
+### Dashboard features
+- **Family / Adult mode toggle** — Family shows leisure/fun sessions; Adult shows fitness/lane sessions
+- **Date tabs** — Today + next 3 days
+- **City filter chips** — All / Oakville (blue) / Burlington (green) / Mississauga (purple)
+- **Open Now / Starting Soon** — highlights sessions active or starting within 90 min (Today only)
+- **Sensory Swim badge** — ⭐ amber highlight on all sensory swim sessions
+
+### Activity classification (in `dashboard/app/page.tsx`)
+Family mode shows activities whose name contains: `fun swim`, `fun & lane swim`, `lane & fun`, `parent & tot`, `sensory`, `leisure swim`, `combo swim`.
+Adult mode shows everything else.
+
+**Known issue (to fix):** `Lane & Leisure Swim` and `Adult Leisure Swim` are currently appearing in Family mode because they match the `leisure swim` keyword. All activity names need to be reviewed and explicitly classified before the filter logic is finalised.
+
+### Data refresh
+- **GitHub Actions** (`.github/workflows/refresh-schedule.yml`) runs daily at 7 AM ET
+- Runs `python aggregator.py`, copies output to `dashboard/public/schedule.json`, commits + pushes
+- Vercel detects the push and redeploys (~1 min)
+- `dashboard/public/schedule.json` is committed to the repo (NOT gitignored) so Vercel can serve it statically

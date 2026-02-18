@@ -69,5 +69,26 @@
 
 ---
 
-## Next Steps
-- Build the **frontend dashboard** — read `schedule.json` and display a filterable view (by city, activity, date, time of day).
+## Frontend Dashboard
+**Status:** Live — https://dashboard-red-two-63.vercel.app
+
+### Achievements (2026-02-18)
+- **Next.js 16 app** scaffolded in `dashboard/` with TypeScript + Tailwind CSS, deployed to Vercel
+- **Family / Adult mode toggle** — Family mode shows leisure/fun sessions (Fun Swim, Parent & Tot, Sensory, Leisure Swim, Combo Swim); Adult mode shows fitness sessions (Lane Swim, Aquafit, Lap Swim, etc.)
+- **Date tabs** — Today + next 3 days
+- **City filter chips** — All / Oakville (blue) / Burlington (green) / Mississauga (purple)
+- **Open Now / Starting Soon section** — highlights sessions active or starting within 90 minutes (Today only)
+- **Sensory Swim badge** — ⭐ amber card highlight for all sensory swim sessions
+- **Static data serving** — `dashboard/public/schedule.json` committed to repo; fetched client-side at runtime
+- **GitHub Actions cron** (`.github/workflows/refresh-schedule.yml`) — runs daily at 7 AM ET, refreshes `schedule.json`, commits + pushes, triggers Vercel redeploy automatically
+- **Workflow verified** — manual run confirmed all steps pass: aggregator fetches ~1545 events, file committed and pushed successfully
+
+### Artifacts
+- `dashboard/` — Next.js app (source + `node_modules` excluded from git)
+- `dashboard/public/schedule.json` — static data file, committed and refreshed daily by Actions
+- `.github/workflows/refresh-schedule.yml` — daily refresh automation
+- Vercel project: `toms-projects-6a9e29da/dashboard`, root directory set to `dashboard/`
+
+### Known Issues / Next Steps
+- **Activity filter needs refinement** — `Lane & Leisure Swim` and `Adult Leisure Swim` are currently appearing in Family mode because they match the `leisure swim` keyword. All ~70 activity names need to be reviewed and explicitly sorted into Family vs Adult before filter logic is finalised.
+- Review all unique activity names with user and classify each as `family`, `adult`, or `both`.
