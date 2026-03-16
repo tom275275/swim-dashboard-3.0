@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { MapPin, Clock, Droplets, Sparkles, AlertCircle, CalendarX2 } from 'lucide-react'
+import { MapPin, Clock, Droplets, Sparkles, AlertCircle, CalendarX2, Navigation } from 'lucide-react'
+import { CENTER_LOCATIONS } from './locations'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -141,11 +142,35 @@ function isStartingSoon(event: SwimEvent, todayStr: string, nowMin: number): boo
   return start > nowMin && start - nowMin <= 90
 }
 
+// Calculates distance in km using the Haversine formula
+function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371 // Radius of the earth in km
+  const dLat = (lat2 - lat1) * (Math.PI / 180)
+  const dLon = (lon2 - lon1) * (Math.PI / 180)
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2)
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+  return R * c
+}
+
 // ── Event card ────────────────────────────────────────────────────────────────
 
-function EventCard({ event, highlight }: { event: SwimEvent; highlight?: 'now' | 'soon' }) {
+function EventCard({ event, highlight, userLocation }: { event: SwimEvent; highlight?: 'now' | 'soon'; userLocation?: {lat: number, lng: number} | null }) {
   const style = CITY_STYLES[event.city] ?? DEFAULT_STYLE
   const sensory = isSensoryActivity(event.activity)
+  const location = CENTER_LOCATIONS[event.center]
+  let distanceStr = null
+  let mapLink = null
+
+  if (location) {
+    mapLink = `https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`
+    if (userLocation) {
+      const dist = calculateDistance(userLocation.lat, userLocation.lng, location.lat, location.lng)
+      distanceStr = `${dist.toFixed(1)} km`
+    }
+  }
 
   return (
     <div
@@ -171,9 +196,23 @@ function EventCard({ event, highlight }: { event: SwimEvent; highlight?: 'now' |
       </div>
 
       {/* Center name */}
-      <div className="flex items-start gap-1.5 text-slate-600 text-sm mb-4">
-        <MapPin className="w-4 h-4 shrink-0 text-slate-400 mt-0.5" />
-        <span className="leading-snug">{event.center}</span>
+      <div className="flex flex-col gap-1 mb-4">
+        <div className="flex items-start gap-1.5 text-slate-600 text-sm">
+          {mapLink ? (
+            <a href={mapLink} target="_blank" rel="noopener noreferrer" className="mt-0.5 hover:text-blue-500 transition-colors" title="Get Directions">
+              <MapPin className="w-4 h-4 shrink-0 text-slate-400 hover:text-blue-500" />
+            </a>
+          ) : (
+            <MapPin className="w-4 h-4 shrink-0 text-slate-400 mt-0.5" />
+          )}
+          <span className="leading-snug">{event.center}</span>
+        </div>
+        {distanceStr && (
+          <div className="flex items-center gap-1.5 text-xs text-slate-500 ml-[22px]">
+            <Navigation className="w-3 h-3 text-slate-400" />
+            <span>{distanceStr} away</span>
+          </div>
+        )}
       </div>
 
       {/* Bottom row: city badge + time */}
@@ -210,6 +249,7 @@ export default function SwimDashboard() {
   const [schedule, setSchedule] = useState<Schedule | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [userLocation, setUserLocation] = useState<{lat: number, lng: number} | null>(null)
 
   const [mode, setMode] = useState<'family' | 'adult'>('family')
   const [selectedDate, setSelectedDate] = useState(getTodayString())
@@ -232,6 +272,20 @@ export default function SwimDashboard() {
         setError(err.message)
         setLoading(false)
       })
+
+    if ('geolocation' in navigator) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setUserLocation({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          })
+        },
+        (err) => {
+          console.log('Geolocation error:', err.message)
+        }
+      )
+    }
   }, [])
 
   if (loading) {
@@ -374,10 +428,10 @@ export default function SwimDashboard() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {activeNow.map((e, i) => (
-                  <EventCard key={`now-${i}`} event={e} highlight="now" />
+                  <EventCard key={`now-${i}`} event={e} highlight="now" userLocation={userLocation} />
                 ))}
                 {startingSoon.map((e, i) => (
-                  <EventCard key={`soon-${i}`} event={e} highlight="soon" />
+                  <EventCard key={`soon-${i}`} event={e} highlight="soon" userLocation={userLocation} />
                 ))}
               </div>
             </section>
@@ -391,7 +445,7 @@ export default function SwimDashboard() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {laterEvents.map((e, i) => (
-                  <EventCard key={`later-${i}`} event={e} />
+                  <EventCard key={`later-${i}`} event={e} userLocation={userLocation} />
                 ))}
               </div>
             </section>
