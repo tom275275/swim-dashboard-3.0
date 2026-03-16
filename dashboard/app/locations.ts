@@ -28,7 +28,7 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
   "Churchill Meadows Community Centre": {
     "lat": 43.5415797,
     "lng": -79.7435975,
-    "address": "Churchill Meadows Community Centre, 5320, Ninth Line, Churchill Meadows, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5M 0R5, Canada"
+    "address": "Churchill Meadows Community Centre, 5320 Ninth Line, Mississauga, ON L5M 0R5"
   },
   "Frank McKechnie Community Centre": {
     "lat": 43.6159262,
@@ -41,14 +41,14 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
     "address": "Mississauga Valley Community Centre and Library, 1275 Mississauga Valley Blvd, Mississauga, ON L5A 3R8"
   },
   "River Grove Community Centre": {
-    "lat": 43.5895591,
-    "lng": -79.7123072,
+    "lat": 43.5894142,
+    "lng": -79.708329,
     "address": "River Grove Community Centre, 5800 River Grove Ave, Mississauga, ON L5M 4R8"
   },
   "Malton Community Centre": {
-    "lat": 43.7235109,
-    "lng": -79.6384796,
-    "address": "Malton Community Centre, 3540, Morning Star Drive, Malton, Mississauga, Peel Region, Golden Horseshoe, Ontario, L4T 1Y2, Canada"
+    "lat": 43.7241396,
+    "lng": -79.6377199,
+    "address": "Malton Community Centre, 3540 Morning Star Dr, Mississauga, ON L4T 1Y2"
   },
   "Carmen Corbasson Community Centre": {
     "lat": 43.5782652,
@@ -61,13 +61,13 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
     "address": "Clarkson Community Centre, 2475, Truscott Drive, Clarkson, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5J 2B5, Canada"
   },
   "Meadowvale Community Centre": {
-    "lat": 43.5852461,
-    "lng": -79.7559801,
+    "lat": 43.5853167,
+    "lng": -79.7571131,
     "address": "Meadowvale Community Centre, 6655 Glen Erin Dr, Mississauga, ON L5N 3L4"
   },
   "Huron Park Recreation Centre": {
-    "lat": 43.5589578,
-    "lng": -79.6329961,
+    "lat": 43.5596433,
+    "lng": -79.6311324,
     "address": "Huron Park Recreation Centre, 830 Paisley Blvd W, Mississauga, ON L5C 3P5"
   },
   "Burnhamthorpe Community Centre": {
@@ -76,23 +76,23 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
     "address": "Burnhamthorpe Community Centre, 1500, Gulleden Drive, Burnhamthorpe, Applewood, Mississauga, Peel Region, Golden Horseshoe, Ontario, L4Y 4H4, Canada"
   },
   "Erin Meadows Community Centre": {
-    "lat": 43.556738,
-    "lng": -79.7171316,
+    "lat": 43.5556064,
+    "lng": -79.7175384,
     "address": "Erin Meadows Community Centre, 2800 Erin Centre Blvd, Mississauga, ON L5M 6R5"
   },
   "Glen Abbey Community Centre": {
-    "lat": 43.4526574,
-    "lng": -79.7167193,
-    "address": "Glen Abbey, Golfview Court, Oakville, Halton Region, Golden Horseshoe, Ontario, L6M 3K4, Canada"
+    "lat": 43.4514524,
+    "lng": -79.7625801,
+    "address": "Glen Abbey Community Centre, 1415 Third Line, Oakville, ON L6M 3G2"
   },
   "Tansley Woods Community Centre": {
-    "lat": 43.3808565,
-    "lng": -79.795911,
+    "lat": 43.3822616,
+    "lng": -79.8012734,
     "address": "Tansley Woods Community Centre, 1996 Itabashi Way, Burlington, ON L7M 4J8"
   },
   "Queen Elizabeth Park Community and Cultural Centre": {
-    "lat": 43.3939673,
-    "lng": -79.7158934,
+    "lat": 43.4065393,
+    "lng": -79.7209853,
     "address": "2302 Bridge Rd, Oakville, ON L6L 2G6"
   },
   "Angela Coughlan Pool": {
@@ -101,8 +101,8 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
     "address": "2425 Clinton St, Burlington, ON L7R 2Z7"
   },
   "Aldershot Pool": {
-    "lat": 43.3134989,
-    "lng": -79.8453488,
+    "lat": 43.3036333,
+    "lng": -79.8521913,
     "address": "50 Fairwood Pl W, Burlington, ON L7T 1E5"
   },
   "Oakville Trafalgar Community Centre-325 Reynolds": {
