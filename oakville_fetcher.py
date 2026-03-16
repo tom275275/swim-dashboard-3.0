@@ -14,7 +14,7 @@ def fetch_page(url, headers, base_data, date_string=None, after=None, page=0):
     print(f"Fetching page {page} starting {date_string} (after: {after})...", flush=True)
 
     try:
-        response = requests.post(url, headers=headers, data=data)
+        response = requests.post(url, headers=headers, data=data, timeout=30)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
