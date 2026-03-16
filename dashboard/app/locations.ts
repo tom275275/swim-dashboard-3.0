@@ -23,7 +23,7 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
   "Centennial Pool": {
     "lat": 43.372046,
     "lng": -79.748975,
-    "address": "Burlington Centennial Pool Parking, New Street, Burlington, Halton Region, Golden Horseshoe, Ontario, L7L 1V3, Canada"
+    "address": "Burlington Centennial Pool Parking, 5151 New St, Burlington, ON L7L 1V3"
   },
   "Churchill Meadows Community Centre": {
     "lat": 43.5415797,
@@ -38,12 +38,12 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
   "Mississauga Valley Community Centre": {
     "lat": 43.596844,
     "lng": -79.6237036,
-    "address": "Mississauga Valley Community Centre and Library, 1275, Mississauga Valleys, Mississauga, Peel Region, Golden Horseshoe, Ontario, Canada"
+    "address": "Mississauga Valley Community Centre and Library, 1275 Mississauga Valley Blvd, Mississauga, ON L5A 3R8"
   },
   "River Grove Community Centre": {
     "lat": 43.5895591,
     "lng": -79.7123072,
-    "address": "River Grove Community Centre, Culham Trail, Streetsville Junction, Streetsville, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5M 1K5, Canada"
+    "address": "River Grove Community Centre, 5800 River Grove Ave, Mississauga, ON L5M 4R8"
   },
   "Malton Community Centre": {
     "lat": 43.7235109,
@@ -63,12 +63,12 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
   "Meadowvale Community Centre": {
     "lat": 43.5852461,
     "lng": -79.7559801,
-    "address": "Meadowvale Community Centre, Glen Erin Drive, Meadowvale, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5N 2R5, Canada"
+    "address": "Meadowvale Community Centre, 6655 Glen Erin Dr, Mississauga, ON L5N 3L4"
   },
   "Huron Park Recreation Centre": {
     "lat": 43.5589578,
     "lng": -79.6329961,
-    "address": "Huron Park Recreation Centre, Paisley Boulevard West, Cooksville, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5C 3P5, Canada"
+    "address": "Huron Park Recreation Centre, 830 Paisley Blvd W, Mississauga, ON L5C 3P5"
   },
   "Burnhamthorpe Community Centre": {
     "lat": 43.6227814,
@@ -78,7 +78,7 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
   "Erin Meadows Community Centre": {
     "lat": 43.556738,
     "lng": -79.7171316,
-    "address": "Erin Meadows Community Centre, Glen Erin Drive, Central Erin Mills, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5M 5P5, Canada"
+    "address": "Erin Meadows Community Centre, 2800 Erin Centre Blvd, Mississauga, ON L5M 6R5"
   },
   "Glen Abbey Community Centre": {
     "lat": 43.4526574,
@@ -88,7 +88,7 @@ export const CENTER_LOCATIONS: Record<string, Location> = {
   "Tansley Woods Community Centre": {
     "lat": 43.3808565,
     "lng": -79.795911,
-    "address": "Tansley Woods Forest, Burlington, Halton Region, Golden Horseshoe, Ontario, Canada"
+    "address": "Tansley Woods Community Centre, 1996 Itabashi Way, Burlington, ON L7M 4J8"
   },
   "Queen Elizabeth Park Community and Cultural Centre": {
     "lat": 43.3939673,
