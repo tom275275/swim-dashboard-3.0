@@ -232,7 +232,7 @@ export default function SwimDashboard() {
   const [selectedDate, setSelectedDate] = useState(getTodayString())
   const [selectedCity, setSelectedCity] = useState<string>('All')
 
-  const dates = getNextDays(4)
+  const dates = getNextDays(7)
   const cities = ['All', 'Oakville', 'Burlington', 'Mississauga']
 
   useEffect(() => {
