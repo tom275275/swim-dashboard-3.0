@@ -181,7 +181,7 @@ function EventCard({ event, highlight, address }: { event: SwimEvent; highlight?
         <MapPin className="w-4 h-4 shrink-0 text-slate-400 mt-0.5" />
         {address ? (
           <a
-            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`}
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${event.center}, ${address}`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="leading-snug hover:text-blue-600 hover:underline"
