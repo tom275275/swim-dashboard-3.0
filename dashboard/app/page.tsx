@@ -184,7 +184,7 @@ function EventCard({ event, highlight, address }: { event: SwimEvent; highlight?
             href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${event.center}, ${address}`)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="leading-snug hover:text-blue-600 hover:underline"
+            className="leading-snug underline decoration-dotted decoration-slate-400 hover:text-blue-600 hover:decoration-solid visited:text-slate-400"
           >
             {event.center}
           </a>

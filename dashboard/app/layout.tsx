@@ -10,6 +10,15 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Swim Dashboard",
   description: "Family swim schedule for Oakville, Burlington & Mississauga",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    title: "Swim Dashboard",
+    statusBarStyle: "default",
+  },
+  icons: {
+    apple: "/icons/icon.svg",
+  },
 };
 
 export default function RootLayout({
