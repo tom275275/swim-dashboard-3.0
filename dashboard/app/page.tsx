@@ -16,9 +16,15 @@ interface SwimEvent {
   source: string
 }
 
+interface CentreInfo {
+  city: string
+  address: string
+}
+
 interface Schedule {
   generated_at: string
   total_events: number
+  centres: Record<string, CentreInfo>
   events: SwimEvent[]
 }
 
@@ -143,7 +149,7 @@ function isStartingSoon(event: SwimEvent, todayStr: string, nowMin: number): boo
 
 // ── Event card ────────────────────────────────────────────────────────────────
 
-function EventCard({ event, highlight }: { event: SwimEvent; highlight?: 'now' | 'soon' }) {
+function EventCard({ event, highlight, address }: { event: SwimEvent; highlight?: 'now' | 'soon'; address?: string }) {
   const style = CITY_STYLES[event.city] ?? DEFAULT_STYLE
   const sensory = isSensoryActivity(event.activity)
 
@@ -173,7 +179,18 @@ function EventCard({ event, highlight }: { event: SwimEvent; highlight?: 'now' |
       {/* Center name */}
       <div className="flex items-start gap-1.5 text-slate-600 text-sm mb-4">
         <MapPin className="w-4 h-4 shrink-0 text-slate-400 mt-0.5" />
-        <span className="leading-snug">{event.center}</span>
+        {address ? (
+          <a
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="leading-snug hover:text-blue-600 hover:underline"
+          >
+            {event.center}
+          </a>
+        ) : (
+          <span className="leading-snug">{event.center}</span>
+        )}
       </div>
 
       {/* Bottom row: city badge + time */}
@@ -375,10 +392,10 @@ export default function SwimDashboard() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {activeNow.map((e, i) => (
-                  <EventCard key={`now-${i}`} event={e} highlight="now" />
+                  <EventCard key={`now-${i}`} event={e} highlight="now" address={schedule.centres?.[e.center]?.address} />
                 ))}
                 {startingSoon.map((e, i) => (
-                  <EventCard key={`soon-${i}`} event={e} highlight="soon" />
+                  <EventCard key={`soon-${i}`} event={e} highlight="soon" address={schedule.centres?.[e.center]?.address} />
                 ))}
               </div>
             </section>
@@ -392,7 +409,7 @@ export default function SwimDashboard() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {laterEvents.map((e, i) => (
-                  <EventCard key={`later-${i}`} event={e} />
+                  <EventCard key={`later-${i}`} event={e} address={schedule.centres?.[e.center]?.address} />
                 ))}
               </div>
             </section>
