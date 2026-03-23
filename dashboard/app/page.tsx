@@ -76,8 +76,8 @@ const CITY_STYLES: Record<string, { badge: string; border: string }> = {
     border: 'border-l-emerald-500',
   },
   Mississauga: {
-    badge: 'bg-indigo-50 text-indigo-700 ring-1 ring-inset ring-indigo-700/10',
-    border: 'border-l-indigo-500',
+    badge: 'bg-rose-50 text-rose-700 ring-1 ring-inset ring-rose-700/10',
+    border: 'border-l-rose-500',
   },
 }
 
@@ -276,7 +276,7 @@ export default function SwimDashboard() {
   const hasHighlighted = activeNow.length > 0 || startingSoon.length > 0
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6">
+    <div className="max-w-7xl mx-auto px-4 py-6">
 
       {/* Header */}
       <div className="flex items-center justify-between mb-5">
@@ -372,7 +372,7 @@ export default function SwimDashboard() {
               <h2 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-3">
                 🟡 Open Now / Starting Soon
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {activeNow.map((e, i) => (
                   <EventCard key={`now-${i}`} event={e} highlight="now" />
                 ))}
@@ -389,7 +389,7 @@ export default function SwimDashboard() {
               <h2 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-3">
                 {isToday && hasHighlighted ? 'Later today' : 'Sessions'}
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {laterEvents.map((e, i) => (
                   <EventCard key={`later-${i}`} event={e} />
                 ))}
