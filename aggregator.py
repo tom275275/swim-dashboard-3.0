@@ -10,12 +10,19 @@ Usage:
 """
 
 import json
+import os
 import sys
 from datetime import datetime
 
 from oakville_fetcher import fetch_schedule as fetch_oakville
 from burlington_fetcher import fetch_schedule as fetch_burlington
 from mississauga_fetcher import fetch_schedule as fetch_mississauga
+
+
+def load_centres():
+    centres_path = os.path.join(os.path.dirname(__file__), "centres.json")
+    with open(centres_path) as f:
+        return json.load(f)
 
 
 def main(days=14):
@@ -40,6 +47,7 @@ def main(days=14):
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "days_fetched": days,
         "total_events": len(all_events),
+        "centres": load_centres(),
         "events": all_events
     }
 

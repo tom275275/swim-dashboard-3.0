@@ -107,10 +107,15 @@ def fetch_schedule(days=14):
         except ValueError:
             end_time = end_time_str
 
+        location = cls.get('Location', '')
+        # PerfectMind sometimes appends the street address to the location name
+        # (e.g. "Oakville Trafalgar Community Centre-325 Reynolds"). Strip it.
+        center_name = location.split('-')[0].strip()
+
         events.append({
             "city": "Oakville",
-            "center": cls.get('Location', ''),
-            "facility": cls.get('Location', ''),
+            "center": center_name,
+            "facility": location,
             "activity": cls.get('EventName', ''),
             "date": date,
             "start_time": start_time,

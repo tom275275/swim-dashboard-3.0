@@ -1,0 +1,82 @@
+{
+  "Aldershot Pool": {
+    "city": "Burlington",
+    "address": "50 Fairwood Pl W, Burlington, ON"
+  },
+  "Angela Coughlan Pool": {
+    "city": "Burlington",
+    "address": "2425 Upper Middle Rd, Burlington, ON"
+  },
+  "Centennial Pool": {
+    "city": "Burlington",
+    "address": "5151 New St, Burlington, ON"
+  },
+  "Tansley Woods Community Centre": {
+    "city": "Burlington",
+    "address": "1996 Itabashi Way, Burlington, ON"
+  },
+  "Burnhamthorpe Community Centre": {
+    "city": "Mississauga",
+    "address": "1500 Gulleden Dr, Mississauga, ON"
+  },
+  "Carmen Corbasson Community Centre": {
+    "city": "Mississauga",
+    "address": "1399 Cawthra Rd, Mississauga, ON"
+  },
+  "Churchill Meadows Community Centre": {
+    "city": "Mississauga",
+    "address": "5320 Ninth Line, Mississauga, ON"
+  },
+  "Clarkson Community Centre": {
+    "city": "Mississauga",
+    "address": "2475 Truscott Dr, Mississauga, ON"
+  },
+  "Erin Meadows Community Centre": {
+    "city": "Mississauga",
+    "address": "2800 Erin Centre Blvd, Mississauga, ON"
+  },
+  "Frank McKechnie Community Centre": {
+    "city": "Mississauga",
+    "address": "310 Bristol Rd E, Mississauga, ON"
+  },
+  "Huron Park Recreation Centre": {
+    "city": "Mississauga",
+    "address": "830 Paisley Blvd W, Mississauga, ON"
+  },
+  "Malton Community Centre": {
+    "city": "Mississauga",
+    "address": "3540 Morning Star Dr, Mississauga, ON"
+  },
+  "Meadowvale Community Centre": {
+    "city": "Mississauga",
+    "address": "6655 Glen Erin Dr, Mississauga, ON"
+  },
+  "Mississauga Valley Community Centre": {
+    "city": "Mississauga",
+    "address": "1275 Mississauga Valley Blvd, Mississauga, ON"
+  },
+  "River Grove Community Centre": {
+    "city": "Mississauga",
+    "address": "5800 River Grove Ave, Mississauga, ON"
+  },
+  "Glen Abbey Community Centre": {
+    "city": "Oakville",
+    "address": "1415 Third Line, Oakville, ON"
+  },
+  "Iroquois Ridge Community Centre": {
+    "city": "Oakville",
+    "address": "1051 Glenashton Dr, Oakville, ON"
+  },
+  "Oakville Trafalgar Community Centre": {
+    "city": "Oakville",
+    "address": "325 Reynolds St, Oakville, ON"
+  },
+  "Queen Elizabeth Park Community and Cultural Centre": {
+    "city": "Oakville",
+    "address": "2302 Bridge Rd, Oakville, ON"
+  },
+  "White Oaks Pool": {
+    "city": "Oakville",
+    "address": "1330 Montclair Dr, Oakville, ON"
+  }
+}
