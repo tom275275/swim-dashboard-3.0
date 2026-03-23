@@ -353,7 +353,8 @@ export default function SwimDashboard() {
       {/* Data freshness */}
       <p className="text-xs text-gray-400 mb-5">
         Updated {new Date(schedule.generated_at).toLocaleDateString('en-CA', {
-          month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+          month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
+          timeZone: 'America/Toronto'
         })}
       </p>
 
