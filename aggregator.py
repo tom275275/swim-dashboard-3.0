@@ -12,7 +12,7 @@ Usage:
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 
 from oakville_fetcher import fetch_schedule as fetch_oakville
 from burlington_fetcher import fetch_schedule as fetch_burlington
@@ -44,7 +44,7 @@ def main(days=14):
     all_events.sort(key=lambda e: (e["date"], e["start_time"]))
 
     output = {
-        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "days_fetched": days,
         "total_events": len(all_events),
         "centres": load_centres(),
