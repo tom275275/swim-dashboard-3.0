@@ -30,14 +30,15 @@ python aggregator.py --days 28   # optional: fetch more than the default 14 days
 
 ## Architecture
 
-**Three fetchers + one aggregator:**
+**Four fetchers + one aggregator:**
 
 | File | Method | API |
 |------|--------|-----|
 | `oakville_fetcher.py` | REST POST with pagination | PerfectMind (`perfectmind.com`, tenant 24974) |
 | `burlington_fetcher.py` | REST POST with pagination | PerfectMind (`perfectmind.com`, tenant 22818) |
 | `mississauga_fetcher.py` | REST POST, no pagination | Active Communities (`apm.activecommunities.com`) |
-| `aggregator.py` | Calls all three, combines + sorts output | — |
+| `ymca_fetcher.py` | Static weekly schedule generation | None (no API) |
+| `aggregator.py` | Calls all four, combines + sorts output | — |
 
 **Oakville/Burlington pattern** — identical structure, different `calendarId`/`widgetId`/tenant URL:
 1. POST to PerfectMind endpoint with a date range

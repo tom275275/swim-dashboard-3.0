@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-01T13:51:21Z",
+  "generated_at": "2026-04-01T14:36:03Z",
   "days_fetched": 14,
-  "total_events": 1347,
+  "total_events": 1360,
   "centres": {
     "Aldershot Pool": {
       "city": "Burlington",
@@ -82,6 +82,10 @@
     "White Oaks Pool": {
       "city": "Oakville",
       "address": "1330 Montclair Dr, Oakville, ON"
+    },
+    "YMCA Oakville": {
+      "city": "YMCA",
+      "address": "410 Rebecca St, Oakville, ON L6K 1K7"
     }
   },
   "events": [
@@ -216,16 +220,6 @@
       "source": "active_communities"
     },
     {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Combo Swim",
-      "date": "2026-04-01",
-      "start_time": "08:30",
-      "end_time": "10:00",
-      "source": "perfectmind"
-    },
-    {
       "city": "Mississauga",
       "center": "Malton Community Centre",
       "facility": "Malton CC Therapeutic Pool",
@@ -234,36 +228,6 @@
       "start_time": "08:30",
       "end_time": "09:30",
       "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Queen Elizabeth Park Community and Cultural Centre",
-      "facility": "Queen Elizabeth Park Community and Cultural Centre",
-      "activity": "Combo Swim",
-      "date": "2026-04-01",
-      "start_time": "09:00",
-      "end_time": "10:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Oakville Trafalgar Community Centre",
-      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
-      "activity": "Healing Waters",
-      "date": "2026-04-01",
-      "start_time": "09:00",
-      "end_time": "10:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Aldershot Pool",
-      "facility": "Aldershot Pool",
-      "activity": "Water Running",
-      "date": "2026-04-01",
-      "start_time": "09:00",
-      "end_time": "10:00",
-      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -284,36 +248,6 @@
       "start_time": "09:00",
       "end_time": "09:55",
       "source": "active_communities"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Deep Aquafit 19+",
-      "date": "2026-04-01",
-      "start_time": "09:10",
-      "end_time": "09:55",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Shallow Aquafit 19+",
-      "date": "2026-04-01",
-      "start_time": "09:10",
-      "end_time": "09:55",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Glen Abbey Community Centre",
-      "facility": "Glen Abbey Community Centre",
-      "activity": "Waterfit",
-      "date": "2026-04-01",
-      "start_time": "09:30",
-      "end_time": "10:30",
-      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -1214,6 +1148,16 @@
       "start_time": "19:00",
       "end_time": "20:00",
       "source": "active_communities"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-01",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "source": "static"
     },
     {
       "city": "Mississauga",
@@ -2646,6 +2590,16 @@
       "source": "active_communities"
     },
     {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-02",
+      "start_time": "16:00",
+      "end_time": "20:30",
+      "source": "static"
+    },
+    {
       "city": "Mississauga",
       "center": "Churchill Meadows Community Centre",
       "facility": "Churchill Mdws CC Therapeutic Pool",
@@ -2966,6 +2920,76 @@
       "source": "active_communities"
     },
     {
+      "city": "Burlington",
+      "center": "Centennial Pool",
+      "facility": "Centennial Pool",
+      "activity": "Combo Swim",
+      "date": "2026-04-03",
+      "start_time": "08:30",
+      "end_time": "10:55",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Tansley Woods Community Centre",
+      "facility": "Tansley Woods Community Centre",
+      "activity": "Lap Swim",
+      "date": "2026-04-03",
+      "start_time": "09:30",
+      "end_time": "11:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Tansley Woods Community Centre",
+      "facility": "Tansley Woods Community Centre",
+      "activity": "Leisure Swim",
+      "date": "2026-04-03",
+      "start_time": "09:30",
+      "end_time": "11:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Centennial Pool",
+      "facility": "Centennial Pool",
+      "activity": "Lap Swim 55+",
+      "date": "2026-04-03",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Tansley Woods Community Centre",
+      "facility": "Tansley Woods Community Centre",
+      "activity": "Fun Swim",
+      "date": "2026-04-03",
+      "start_time": "11:30",
+      "end_time": "13:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Centennial Pool",
+      "facility": "Centennial Pool",
+      "activity": "Lap Swim",
+      "date": "2026-04-03",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-03",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "source": "static"
+    },
+    {
       "city": "Mississauga",
       "center": "Meadowvale Community Centre",
       "facility": "Meadowvale CC Therapeutic Pool",
@@ -3204,6 +3228,16 @@
       "start_time": "12:05",
       "end_time": "13:00",
       "source": "active_communities"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-04",
+      "start_time": "12:15",
+      "end_time": "15:00",
+      "source": "static"
     },
     {
       "city": "Mississauga",
@@ -3604,6 +3638,16 @@
       "start_time": "08:30",
       "end_time": "09:25",
       "source": "active_communities"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-05",
+      "start_time": "09:00",
+      "end_time": "15:00",
+      "source": "static"
     },
     {
       "city": "Mississauga",
@@ -4676,6 +4720,16 @@
       "source": "active_communities"
     },
     {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-06",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "source": "static"
+    },
+    {
       "city": "Mississauga",
       "center": "Clarkson Community Centre",
       "facility": "Clarkson CC Warm Water Pool",
@@ -5554,6 +5608,16 @@
       "start_time": "16:00",
       "end_time": "17:00",
       "source": "active_communities"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-07",
+      "start_time": "16:00",
+      "end_time": "20:30",
+      "source": "static"
     },
     {
       "city": "Mississauga",
@@ -6496,6 +6560,16 @@
       "source": "active_communities"
     },
     {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-08",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "source": "static"
+    },
+    {
       "city": "Mississauga",
       "center": "Mississauga Valley Community Centre",
       "facility": "Miss Valley CC Terry Fox Main Pool",
@@ -7374,6 +7448,16 @@
       "start_time": "16:00",
       "end_time": "17:00",
       "source": "active_communities"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-09",
+      "start_time": "16:00",
+      "end_time": "20:30",
+      "source": "static"
     },
     {
       "city": "Mississauga",
@@ -8266,6 +8350,16 @@
       "source": "active_communities"
     },
     {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-10",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "source": "static"
+    },
+    {
       "city": "Mississauga",
       "center": "River Grove Community Centre",
       "facility": "River Grove CC Main Pool (Leisure/Lap)",
@@ -8716,6 +8810,16 @@
       "source": "active_communities"
     },
     {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-11",
+      "start_time": "12:15",
+      "end_time": "15:00",
+      "source": "static"
+    },
+    {
       "city": "Mississauga",
       "center": "Malton Community Centre",
       "facility": "Malton CC Main + Therapeutic Pool",
@@ -9054,6 +9158,16 @@
       "start_time": "08:30",
       "end_time": "09:25",
       "source": "active_communities"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-12",
+      "start_time": "09:00",
+      "end_time": "15:00",
+      "source": "static"
     },
     {
       "city": "Mississauga",
@@ -10216,6 +10330,16 @@
       "source": "active_communities"
     },
     {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-13",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "source": "static"
+    },
+    {
       "city": "Mississauga",
       "center": "Clarkson Community Centre",
       "facility": "Clarkson CC Warm Water Pool",
@@ -11174,6 +11298,16 @@
       "start_time": "16:00",
       "end_time": "17:00",
       "source": "active_communities"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-04-14",
+      "start_time": "16:00",
+      "end_time": "20:30",
+      "source": "static"
     },
     {
       "city": "Mississauga",
