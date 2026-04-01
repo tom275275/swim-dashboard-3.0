@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 from oakville_fetcher import fetch_schedule as fetch_oakville
 from burlington_fetcher import fetch_schedule as fetch_burlington
 from mississauga_fetcher import fetch_schedule as fetch_mississauga
+from ymca_fetcher import fetch_schedule as fetch_ymca
 
 
 def load_centres():
@@ -40,7 +41,11 @@ def main(days=14):
     mississauga_events = fetch_mississauga(days)
     print(f"Mississauga: {len(mississauga_events)} events\n")
 
-    all_events = oakville_events + burlington_events + mississauga_events
+    print("--- YMCA ---")
+    ymca_events = fetch_ymca(days)
+    print(f"YMCA: {len(ymca_events)} events\n")
+
+    all_events = oakville_events + burlington_events + mississauga_events + ymca_events
     all_events.sort(key=lambda e: (e["date"], e["start_time"]))
 
     output = {
@@ -58,6 +63,7 @@ def main(days=14):
     print(f"  Oakville:    {len(oakville_events)}")
     print(f"  Burlington:  {len(burlington_events)}")
     print(f"  Mississauga: {len(mississauga_events)}")
+    print(f"  YMCA:        {len(ymca_events)}")
 
 
 if __name__ == "__main__":

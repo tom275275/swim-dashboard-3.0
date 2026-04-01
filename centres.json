@@ -78,5 +78,9 @@
   "White Oaks Pool": {
     "city": "Oakville",
     "address": "1330 Montclair Dr, Oakville, ON"
+  },
+  "YMCA Oakville": {
+    "city": "YMCA",
+    "address": "410 Rebecca St, Oakville, ON L6K 1K7"
   }
 }

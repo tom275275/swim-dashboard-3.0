@@ -36,6 +36,7 @@ const FAMILY_ACTIVITIES = new Set([
   'Combo Swim',
   'Combo Swim (slide closed)',
   'Drop In Snoezelen Pool Program',
+  'Family Swim',
   'Free Fun Swim: Caribbean Vibes',
   'Fun & Lane Swim For Women & Girls',
   'Fun Swim',
@@ -84,6 +85,10 @@ const CITY_STYLES: Record<string, { badge: string; border: string }> = {
   Mississauga: {
     badge: 'bg-rose-50 text-rose-700 ring-1 ring-inset ring-rose-700/10',
     border: 'border-l-rose-500',
+  },
+  YMCA: {
+    badge: 'bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-600/10',
+    border: 'border-l-amber-500',
   },
 }
 
@@ -233,7 +238,7 @@ export default function SwimDashboard() {
   const [selectedCity, setSelectedCity] = useState<string>('All')
 
   const dates = getNextDays(7)
-  const cities = ['All', 'Oakville', 'Burlington', 'Mississauga']
+  const cities = ['All', 'Oakville', 'Burlington', 'Mississauga', 'YMCA']
 
   useEffect(() => {
     fetch('/schedule.json')
