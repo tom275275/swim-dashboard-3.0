@@ -41,11 +41,19 @@ python aggregator.py --days 28   # optional: fetch more than the default 14 days
 | `aggregator.py` | Calls all four, combines + sorts output | — |
 
 **Oakville/Burlington pattern** — identical structure, different `calendarId`/`widgetId`/tenant URL:
-1. POST to PerfectMind endpoint with a date range
+1. POST to PerfectMind endpoint — returns up to ~60 classes per response plus an optional `nextKey`
 2. Extract classes from `json_data['classes']`
-3. Paginate via `json_data.get('nextKey')` — when exhausted, advance `dateString` by 1 day
-4. Safety break at page > 10 or reaching the target end date
-5. `fetch_schedule(days)` wraps the raw fetch and returns normalized event dicts
+3. Paginate via `json_data.get('nextKey')` — pass as `after` in the next request to continue from that cursor
+4. When `nextKey` is absent, advance `dateString` to the day after the last class's `OccurrenceDate`
+5. Stop when the last class's date reaches `end_date` or when `classes` is empty
+6. Safety break at 50 iterations (not a page counter — see critical note below)
+7. `fetch_schedule(days)` wraps the raw fetch and returns normalized event dicts
+
+**Critical PerfectMind pagination behaviour** (confirmed by live API testing):
+- `after` (nextKey) is a global cursor — it overrides `dateString` and returns the next batch of classes regardless of what `dateString` is set to
+- `page` is an **additional offset on top of `after`** — sending `page=1` with an `after` cursor skips the first page of results after that cursor, silently dropping data
+- **Always send `page=0`** on every request. The `after` cursor alone is sufficient for full pagination; incrementing `page` causes data loss
+- `dateString` alone (no `after`) always returns from the first available date on or after today — it does not let you seek to a specific date mid-schedule
 
 **Mississauga pattern** — Active Communities REST API (no browser needed):
 1. POST to `/rest/onlinecalendar/multicenter/events` with all 21 centre IDs and a date range
