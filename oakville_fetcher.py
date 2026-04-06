@@ -36,13 +36,16 @@ def fetch_all_oakville_schedule(days_to_fetch=14):
     end_date = current_date + timedelta(days=days_to_fetch)
 
     next_key = None
-    page = 0
     last_fetched_date_str = None
+    iterations = 0
 
     while True:
         date_string = last_fetched_date_str if last_fetched_date_str else current_date.strftime('%Y-%m-%d')
 
-        json_data = fetch_page(url, headers, base_data, date_string, next_key, page)
+        # Always send page=0: the API uses `page` as an additional offset on top of
+        # the `after` cursor, so a non-zero page skips results. All pagination is
+        # handled by nextKey/after; page must stay 0 every iteration.
+        json_data = fetch_page(url, headers, base_data, date_string, next_key, page=0)
 
         if not json_data or 'classes' not in json_data or not json_data['classes']:
             print("No more classes found.", flush=True)
@@ -69,10 +72,10 @@ def fetch_all_oakville_schedule(days_to_fetch=14):
         if not next_key and not new_classes:
             break
 
-        page += 1
+        iterations += 1
 
-        if page > 10:
-            print("Safety break: too many pages.", flush=True)
+        if iterations > 50:
+            print("Safety break: too many iterations.", flush=True)
             break
 
     return all_classes
