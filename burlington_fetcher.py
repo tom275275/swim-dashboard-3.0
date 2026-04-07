@@ -66,8 +66,12 @@ def fetch_all_burlington_schedule(days_to_fetch=14):
                     print("Reached target end date.", flush=True)
                     break
 
-                next_start_date = last_date_dt + timedelta(days=1)
-                last_fetched_date_str = next_start_date.strftime('%Y-%m-%d')
+                # Only advance dateString when the cursor is exhausted.
+                # If nextKey is present, the cursor alone handles continuation —
+                # sending a new dateString alongside it causes the API to skip ahead.
+                if not next_key:
+                    next_start_date = last_date_dt + timedelta(days=1)
+                    last_fetched_date_str = next_start_date.strftime('%Y-%m-%d')
 
         if not next_key and not new_classes:
             break
