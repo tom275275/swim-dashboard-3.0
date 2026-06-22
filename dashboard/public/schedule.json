@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-21T14:24:15Z",
+  "generated_at": "2026-06-22T17:06:30Z",
   "days_fetched": 14,
-  "total_events": 1961,
+  "total_events": 1995,
   "centres": {
     "Aldershot Pool": {
       "city": "Burlington",
@@ -89,936 +89,6 @@
     }
   },
   "events": [
-    {
-      "city": "Mississauga",
-      "center": "Churchill Meadows Community Centre",
-      "facility": "Churchill Mdws CC Therapeutic Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "07:00",
-      "end_time": "08:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Churchill Meadows Community Centre",
-      "facility": "Churchill Mdws CC Main Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "07:00",
-      "end_time": "08:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Erin Meadows Community Centre",
-      "facility": "Erin Meadows CC Main Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "07:30",
-      "end_time": "08:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Frank McKechnie Community Centre",
-      "facility": "Frank McKechnie CC Main Pool",
-      "activity": "Lane & Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "07:30",
-      "end_time": "08:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Mississauga Valley Community Centre",
-      "facility": "Miss Valley CC Therapeutic Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "07:30",
-      "end_time": "08:55",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Mississauga Valley Community Centre",
-      "facility": "Miss Valley CC Terry Fox Main Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "07:30",
-      "end_time": "09:55",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "River Grove Community Centre",
-      "facility": "River Grove CC Lap Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "07:30",
-      "end_time": "08:55",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Clarkson Community Centre",
-      "facility": "Clarkson CC Warm Water Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "08:00",
-      "end_time": "09:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Clarkson Community Centre",
-      "facility": "Clarkson CC Main Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "08:00",
-      "end_time": "09:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Carmen Corbasson Community Centre",
-      "facility": "Carmen Corbasson CC Main & Therap. Pool",
-      "activity": "Lane & Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "08:05",
-      "end_time": "08:55",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Burnhamthorpe Community Centre",
-      "facility": "Burnhamthorpe CC Therapeutic Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "08:35",
-      "end_time": "09:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Burnhamthorpe Community Centre",
-      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "08:35",
-      "end_time": "09:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Burlington",
-      "center": "Mountainside Community Centre",
-      "facility": "Mountainside Community Centre",
-      "activity": "Lap Swim \u2013 Walk In Only: Online Reservation is not available ",
-      "date": "2026-06-21",
-      "start_time": "09:00",
-      "end_time": "16:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "YMCA",
-      "center": "YMCA Oakville",
-      "facility": "Leisure Pool",
-      "activity": "Family Swim",
-      "date": "2026-06-21",
-      "start_time": "09:00",
-      "end_time": "15:00",
-      "source": "static"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Lap Swim",
-      "date": "2026-06-21",
-      "start_time": "09:30",
-      "end_time": "11:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "09:30",
-      "end_time": "11:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Burnhamthorpe Community Centre",
-      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
-      "activity": "Drop In Aquafitness",
-      "date": "2026-06-21",
-      "start_time": "09:30",
-      "end_time": "10:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Lap Swim",
-      "date": "2026-06-21",
-      "start_time": "09:45",
-      "end_time": "12:45",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Aldershot Pool",
-      "facility": "Aldershot Pool",
-      "activity": "Combo Swim",
-      "date": "2026-06-21",
-      "start_time": "10:00",
-      "end_time": "11:55",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Mountainside Community Centre",
-      "facility": "Mountainside Community Centre",
-      "activity": "Fun Swim \u2013 Walk In Only: Online Reservation is not available",
-      "date": "2026-06-21",
-      "start_time": "10:00",
-      "end_time": "16:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "LaSalle Park",
-      "facility": "LaSalle Park",
-      "activity": "Leisure Swim \u2013 Walk In Only: Online Reservation is not available",
-      "date": "2026-06-21",
-      "start_time": "10:00",
-      "end_time": "18:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Mississauga Valley Community Centre",
-      "facility": "Miss Valley CC Therapeutic Pool",
-      "activity": "Parent & Tot Swim",
-      "date": "2026-06-21",
-      "start_time": "10:00",
-      "end_time": "11:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Brookdale Pool",
-      "facility": "Brookdale Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "10:30",
-      "end_time": "12:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Burnhamthorpe Community Centre",
-      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
-      "activity": "Drop In Deep End Aquafitness",
-      "date": "2026-06-21",
-      "start_time": "10:30",
-      "end_time": "11:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Bronte Pool",
-      "facility": "Bronte Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "11:00",
-      "end_time": "12:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Mississauga Valley Community Centre",
-      "facility": "Miss Valley CC Therapeutic Pool",
-      "activity": "Therapeutic Time",
-      "date": "2026-06-21",
-      "start_time": "11:00",
-      "end_time": "12:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Lions Pool",
-      "facility": "Lions Pool",
-      "activity": "Combo Swim",
-      "date": "2026-06-21",
-      "start_time": "11:30",
-      "end_time": "13:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "11:30",
-      "end_time": "13:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Wedgewood Pool",
-      "facility": "Wedgewood Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "12:00",
-      "end_time": "13:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Brookdale Pool",
-      "facility": "Brookdale Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "12:00",
-      "end_time": "13:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Falgarwood Pool",
-      "facility": "Falgarwood Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "12:00",
-      "end_time": "13:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Aldershot Pool",
-      "facility": "Aldershot Pool",
-      "activity": "Lap Swim",
-      "date": "2026-06-21",
-      "start_time": "12:00",
-      "end_time": "13:25",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Clarkson Community Centre",
-      "facility": "Clarkson CC Warm Water Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "12:00",
-      "end_time": "13:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Malton Community Centre",
-      "facility": "Malton CC Therapeutic Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "12:00",
-      "end_time": "13:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Malton Community Centre",
-      "facility": "Malton CC Main Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "12:00",
-      "end_time": "13:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Clarkson Community Centre",
-      "facility": "Clarkson CC Main Pool",
-      "activity": "Lane & Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "12:05",
-      "end_time": "13:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Erin Meadows Community Centre",
-      "facility": "Erin Meadows CC Main Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "12:05",
-      "end_time": "13:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Meadowvale Community Centre",
-      "facility": "Meadowvale CC Therapeutic Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "12:05",
-      "end_time": "13:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Meadowvale Community Centre",
-      "facility": "Meadowvale CC Main Pool",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "12:05",
-      "end_time": "13:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Churchill Meadows Community Centre",
-      "facility": "Churchill Mdws CC Main & Therap. Pool",
-      "activity": "Fun Swim with Lane For Women and Girls",
-      "date": "2026-06-21",
-      "start_time": "12:10",
-      "end_time": "13:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Bronte Pool",
-      "facility": "Bronte Pool",
-      "activity": "Combo Swim",
-      "date": "2026-06-21",
-      "start_time": "12:30",
-      "end_time": "14:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Frank McKechnie Community Centre",
-      "facility": "Frank McKechnie CC Main Pool",
-      "activity": "Lane & Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "12:35",
-      "end_time": "13:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Frank McKechnie Community Centre",
-      "facility": "Frank McKechnie CC Play Pool",
-      "activity": "Parent & Tot Swim",
-      "date": "2026-06-21",
-      "start_time": "12:35",
-      "end_time": "13:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "White Oaks Pool",
-      "facility": "White Oaks Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "12:45",
-      "end_time": "14:15",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Lions Pool",
-      "facility": "Lions Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "13:00",
-      "end_time": "14:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Men's only Combo Swim",
-      "date": "2026-06-21",
-      "start_time": "13:00",
-      "end_time": "14:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Burnhamthorpe Community Centre",
-      "facility": "Burnhamthorpe CC Main + Therapeutic Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:05",
-      "end_time": "14:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Clarkson Community Centre",
-      "facility": "Clarkson CC Main + Warm Water Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:05",
-      "end_time": "14:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Erin Meadows Community Centre",
-      "facility": "Erin Meadows CC Main + Play Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:05",
-      "end_time": "14:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Malton Community Centre",
-      "facility": "Malton CC Main + Therapeutic Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:05",
-      "end_time": "14:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Meadowvale Community Centre",
-      "facility": "Meadowvale CC Main & Therapeutic Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:05",
-      "end_time": "14:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "River Grove Community Centre",
-      "facility": "River Grove CC Main Pool (Leisure/Lap)",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:05",
-      "end_time": "14:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Carmen Corbasson Community Centre",
-      "facility": "Carmen Corbasson CC Main & Therap. Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:15",
-      "end_time": "14:40",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Mississauga Valley Community Centre",
-      "facility": "Miss Valley CC Main & Therap. Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:15",
-      "end_time": "14:45",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Wedgewood Pool",
-      "facility": "Wedgewood Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "13:30",
-      "end_time": "15:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Brookdale Pool",
-      "facility": "Brookdale Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "13:30",
-      "end_time": "15:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Falgarwood Pool",
-      "facility": "Falgarwood Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "13:30",
-      "end_time": "15:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Frank McKechnie Community Centre",
-      "facility": "Frank McKechnie CC Main + Play Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "13:35",
-      "end_time": "14:55",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Glen Abbey Community Centre",
-      "facility": "Glen Abbey Community Centre",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "14:00",
-      "end_time": "15:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Bronte Pool",
-      "facility": "Bronte Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "14:00",
-      "end_time": "15:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "White Oaks Pool",
-      "facility": "White Oaks Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "14:15",
-      "end_time": "15:45",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Lions Pool",
-      "facility": "Lions Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "14:30",
-      "end_time": "16:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Burnhamthorpe Community Centre",
-      "facility": "Burnhamthorpe CC Therapeutic Pool",
-      "activity": "Adult Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "14:30",
-      "end_time": "15:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Burnhamthorpe Community Centre",
-      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
-      "activity": "Lane Swim",
-      "date": "2026-06-21",
-      "start_time": "14:30",
-      "end_time": "15:25",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Clarkson Community Centre",
-      "facility": "Clarkson CC Warm Water Pool",
-      "activity": "Therapeutic Time",
-      "date": "2026-06-21",
-      "start_time": "14:30",
-      "end_time": "16:30",
-      "source": "active_communities"
-    },
-    {
-      "city": "Mississauga",
-      "center": "River Grove Community Centre",
-      "facility": "River Grove CC Main Pool (Leisure/Lap)",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "14:35",
-      "end_time": "15:55",
-      "source": "active_communities"
-    },
-    {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Combo Swim",
-      "date": "2026-06-21",
-      "start_time": "14:45",
-      "end_time": "17:45",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Meadowvale Community Centre",
-      "facility": "Meadowvale CC Main & Therapeutic Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "14:45",
-      "end_time": "16:10",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Brookdale Pool",
-      "facility": "Brookdale Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "15:00",
-      "end_time": "16:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Falgarwood Pool",
-      "facility": "Falgarwood Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "15:00",
-      "end_time": "16:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Carmen Corbasson Community Centre",
-      "facility": "Carmen Corbasson CC Therapeutic Pool",
-      "activity": "Fun Swim For Women and Girls - Therapeutic Pool",
-      "date": "2026-06-21",
-      "start_time": "15:15",
-      "end_time": "16:40",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Wedgewood Pool",
-      "facility": "Wedgewood Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "16:00",
-      "end_time": "17:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Queen Elizabeth Park Community and Cultural Centre",
-      "facility": "Queen Elizabeth Park Community and Cultural Centre",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "16:30",
-      "end_time": "18:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Carmen Corbasson Community Centre",
-      "facility": "Carmen Corbasson CC Pool Lanes 1-2-3",
-      "activity": "Lane Swim Women Only - 3 Lane",
-      "date": "2026-06-21",
-      "start_time": "16:45",
-      "end_time": "17:40",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Oakville Trafalgar Community Centre",
-      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "17:00",
-      "end_time": "18:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Lions Pool",
-      "facility": "Lions Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "17:00",
-      "end_time": "18:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Brookdale Pool",
-      "facility": "Brookdale Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "17:00",
-      "end_time": "18:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Bronte Pool",
-      "facility": "Bronte Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "17:00",
-      "end_time": "18:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Falgarwood Pool",
-      "facility": "Falgarwood Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "17:00",
-      "end_time": "18:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Wedgewood Pool",
-      "facility": "Wedgewood Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "17:30",
-      "end_time": "19:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Brookdale Pool",
-      "facility": "Brookdale Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "18:30",
-      "end_time": "20:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Falgarwood Pool",
-      "facility": "Falgarwood Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "18:30",
-      "end_time": "20:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Bronte Pool",
-      "facility": "Bronte Pool",
-      "activity": "Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "18:30",
-      "end_time": "20:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Lions Pool",
-      "facility": "Lions Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "18:30",
-      "end_time": "20:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Mississauga",
-      "center": "Churchill Meadows Community Centre",
-      "facility": "Churchill Mdws CC Main & Therap. Pool",
-      "activity": "Fun Swim",
-      "date": "2026-06-21",
-      "start_time": "18:40",
-      "end_time": "20:00",
-      "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Wedgewood Pool",
-      "facility": "Wedgewood Pool",
-      "activity": "Length Swim",
-      "date": "2026-06-21",
-      "start_time": "19:00",
-      "end_time": "20:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "White Oaks Pool",
-      "facility": "White Oaks Pool",
-      "activity": "Female-Only Leisure Swim",
-      "date": "2026-06-21",
-      "start_time": "19:15",
-      "end_time": "20:15",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "White Oaks Pool",
-      "facility": "White Oaks Pool",
-      "activity": "Female-Only Length Swim (1-Lane Only)",
-      "date": "2026-06-21",
-      "start_time": "19:15",
-      "end_time": "20:15",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Oakville Trafalgar Community Centre",
-      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
-      "activity": "Length Swim",
-      "date": "2026-06-22",
-      "start_time": "06:00",
-      "end_time": "07:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Glen Abbey Community Centre",
-      "facility": "Glen Abbey Community Centre",
-      "activity": "Length Swim",
-      "date": "2026-06-22",
-      "start_time": "06:00",
-      "end_time": "07:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Aldershot Pool",
-      "facility": "Aldershot Pool",
-      "activity": "Lap Swim",
-      "date": "2026-06-22",
-      "start_time": "06:00",
-      "end_time": "08:45",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Nelson Community Centre",
-      "facility": "Nelson Community Centre",
-      "activity": "Lap Swim- 2 Single Lanes (Fast and Medium Only) - Walk in Only: Online reservation is not available",
-      "date": "2026-06-22",
-      "start_time": "06:00",
-      "end_time": "07:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Lap Swim",
-      "date": "2026-06-22",
-      "start_time": "06:30",
-      "end_time": "08:10",
-      "source": "perfectmind"
-    },
     {
       "city": "Mississauga",
       "center": "Burnhamthorpe Community Centre",
@@ -1140,56 +210,6 @@
       "source": "active_communities"
     },
     {
-      "city": "Oakville",
-      "center": "Iroquois Ridge Community Centre",
-      "facility": "Iroquois Ridge Community Centre",
-      "activity": "Length Swim",
-      "date": "2026-06-22",
-      "start_time": "07:30",
-      "end_time": "09:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Iroquois Ridge Community Centre",
-      "facility": "Iroquois Ridge Community Centre",
-      "activity": "Water Walking (2 lanes only)",
-      "date": "2026-06-22",
-      "start_time": "07:30",
-      "end_time": "09:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Nelson Community Centre",
-      "facility": "Nelson Community Centre",
-      "activity": "Lap Swim- Walk in Only: Online reservation is not available",
-      "date": "2026-06-22",
-      "start_time": "07:30",
-      "end_time": "12:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Nelson Community Centre",
-      "facility": "Nelson Community Centre",
-      "activity": "Splash Park - Walk- In only (LAST DAY JUNE 26th)",
-      "date": "2026-06-22",
-      "start_time": "07:30",
-      "end_time": "12:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Mountainside Community Centre",
-      "facility": "Mountainside Community Centre",
-      "activity": "Lap Swim \u2013 Walk In Only: Online Reservation is not available ",
-      "date": "2026-06-22",
-      "start_time": "07:45",
-      "end_time": "09:45",
-      "source": "perfectmind"
-    },
-    {
       "city": "Mississauga",
       "center": "Clarkson Community Centre",
       "facility": "Clarkson CC Warm Water Pool",
@@ -1218,76 +238,6 @@
       "start_time": "08:00",
       "end_time": "09:00",
       "source": "active_communities"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Shallow Aquafit 19+",
-      "date": "2026-06-22",
-      "start_time": "08:15",
-      "end_time": "09:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Combo Swim",
-      "date": "2026-06-22",
-      "start_time": "08:30",
-      "end_time": "10:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Queen Elizabeth Park Community and Cultural Centre",
-      "facility": "Queen Elizabeth Park Community and Cultural Centre",
-      "activity": "Combo Swim",
-      "date": "2026-06-22",
-      "start_time": "09:00",
-      "end_time": "10:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Iroquois Ridge Community Centre",
-      "facility": "Iroquois Ridge Community Centre",
-      "activity": "Leisure Swim (leisure pool only)",
-      "date": "2026-06-22",
-      "start_time": "09:00",
-      "end_time": "10:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Aldershot Pool",
-      "facility": "Aldershot Pool",
-      "activity": "Shallow Aquafit 19+",
-      "date": "2026-06-22",
-      "start_time": "09:00",
-      "end_time": "09:45",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Aldershot Pool",
-      "facility": "Aldershot Pool",
-      "activity": "Water Running",
-      "date": "2026-06-22",
-      "start_time": "09:00",
-      "end_time": "09:55",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Water Running",
-      "date": "2026-06-22",
-      "start_time": "09:00",
-      "end_time": "10:00",
-      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -1328,26 +278,6 @@
       "start_time": "09:00",
       "end_time": "10:00",
       "source": "active_communities"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Shallow Aquafit 19+",
-      "date": "2026-06-22",
-      "start_time": "09:10",
-      "end_time": "09:55",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Glen Abbey Community Centre",
-      "facility": "Glen Abbey Community Centre",
-      "activity": "Waterfit",
-      "date": "2026-06-22",
-      "start_time": "09:30",
-      "end_time": "10:30",
-      "source": "perfectmind"
     },
     {
       "city": "Burlington",
@@ -1400,66 +330,6 @@
       "source": "active_communities"
     },
     {
-      "city": "Oakville",
-      "center": "Oakville Trafalgar Community Centre",
-      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
-      "activity": "Healing Waters",
-      "date": "2026-06-22",
-      "start_time": "10:00",
-      "end_time": "11:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Oakville Trafalgar Community Centre",
-      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
-      "activity": "Waterfit",
-      "date": "2026-06-22",
-      "start_time": "10:00",
-      "end_time": "11:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Tansley Woods Community Centre",
-      "facility": "Tansley Woods Community Centre",
-      "activity": "Combo Swim",
-      "date": "2026-06-22",
-      "start_time": "10:00",
-      "end_time": "11:55",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Aldershot Pool",
-      "facility": "Aldershot Pool",
-      "activity": "Combo Swim",
-      "date": "2026-06-22",
-      "start_time": "10:00",
-      "end_time": "11:55",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "LaSalle Park",
-      "facility": "LaSalle Park",
-      "activity": "Leisure Swim \u2013 Walk In Only: Online Reservation is not available",
-      "date": "2026-06-22",
-      "start_time": "10:00",
-      "end_time": "16:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Water Running",
-      "date": "2026-06-22",
-      "start_time": "10:00",
-      "end_time": "10:55",
-      "source": "perfectmind"
-    },
-    {
       "city": "Mississauga",
       "center": "Carmen Corbasson Community Centre",
       "facility": "Carmen Corbasson CC Therapeutic Pool",
@@ -1488,36 +358,6 @@
       "start_time": "10:00",
       "end_time": "11:00",
       "source": "active_communities"
-    },
-    {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Shallow Aquafit 19+",
-      "date": "2026-06-22",
-      "start_time": "10:05",
-      "end_time": "10:50",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Glen Abbey Community Centre",
-      "facility": "Glen Abbey Community Centre",
-      "activity": "Leisure Swim",
-      "date": "2026-06-22",
-      "start_time": "10:30",
-      "end_time": "12:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Queen Elizabeth Park Community and Cultural Centre",
-      "facility": "Queen Elizabeth Park Community and Cultural Centre",
-      "activity": "Waterfit Drop-in",
-      "date": "2026-06-22",
-      "start_time": "10:30",
-      "end_time": "11:30",
-      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -1580,26 +420,6 @@
       "source": "active_communities"
     },
     {
-      "city": "Oakville",
-      "center": "Oakville Trafalgar Community Centre",
-      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
-      "activity": "Combo Swim",
-      "date": "2026-06-22",
-      "start_time": "11:00",
-      "end_time": "12:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Lap Swim 55+",
-      "date": "2026-06-22",
-      "start_time": "11:00",
-      "end_time": "12:00",
-      "source": "perfectmind"
-    },
-    {
       "city": "Mississauga",
       "center": "Clarkson Community Centre",
       "facility": "Clarkson CC Warm Water Pool",
@@ -1618,36 +438,6 @@
       "start_time": "11:05",
       "end_time": "13:00",
       "source": "active_communities"
-    },
-    {
-      "city": "Oakville",
-      "center": "Queen Elizabeth Park Community and Cultural Centre",
-      "facility": "Queen Elizabeth Park Community and Cultural Centre",
-      "activity": "Healing Waters",
-      "date": "2026-06-22",
-      "start_time": "11:30",
-      "end_time": "12:30",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Iroquois Ridge Community Centre",
-      "facility": "Iroquois Ridge Community Centre",
-      "activity": "Length Swim",
-      "date": "2026-06-22",
-      "start_time": "11:30",
-      "end_time": "13:00",
-      "source": "perfectmind"
-    },
-    {
-      "city": "Oakville",
-      "center": "Iroquois Ridge Community Centre",
-      "facility": "Iroquois Ridge Community Centre",
-      "activity": "Water Walking (2 lanes only)",
-      "date": "2026-06-22",
-      "start_time": "11:30",
-      "end_time": "13:00",
-      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -1801,12 +591,12 @@
     },
     {
       "city": "Burlington",
-      "center": "Centennial Pool",
-      "facility": "Centennial Pool",
-      "activity": "Lap Swim",
+      "center": "LaSalle Park",
+      "facility": "LaSalle Park",
+      "activity": "Leisure Swim \u2013 Walk In Only: Online Reservation is not available",
       "date": "2026-06-22",
       "start_time": "12:00",
-      "end_time": "13:00",
+      "end_time": "16:00",
       "source": "perfectmind"
     },
     {
@@ -19220,6 +18010,46 @@
       "source": "perfectmind"
     },
     {
+      "city": "Burlington",
+      "center": "Nelson Community Centre",
+      "facility": "Nelson Community Centre",
+      "activity": "Lap Swim- Walk in Only: Online reservation is not available",
+      "date": "2026-07-05",
+      "start_time": "06:15",
+      "end_time": "09:15",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Tansley Woods Community Centre",
+      "facility": "Tansley Woods Community Centre",
+      "activity": "Lap Swim",
+      "date": "2026-07-05",
+      "start_time": "06:30",
+      "end_time": "08:25",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Iroquois Ridge Community Centre",
+      "facility": "Iroquois Ridge Community Centre",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "06:45",
+      "end_time": "08:15",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Aldershot Pool",
+      "facility": "Aldershot Pool",
+      "activity": "Lap Swim",
+      "date": "2026-07-05",
+      "start_time": "06:45",
+      "end_time": "08:45",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Churchill Meadows Community Centre",
       "facility": "Churchill Mdws CC Therapeutic Pool",
@@ -19238,6 +18068,36 @@
       "start_time": "07:00",
       "end_time": "08:30",
       "source": "active_communities"
+    },
+    {
+      "city": "Oakville",
+      "center": "Glen Abbey Community Centre",
+      "facility": "Glen Abbey Community Centre",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "07:15",
+      "end_time": "08:45",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Oakville Trafalgar Community Centre",
+      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
+      "activity": "Healing Waters",
+      "date": "2026-07-05",
+      "start_time": "07:30",
+      "end_time": "09:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Oakville Trafalgar Community Centre",
+      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "07:30",
+      "end_time": "09:00",
+      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -19310,6 +18170,16 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Falgarwood Pool",
+      "facility": "Falgarwood Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "08:30",
+      "end_time": "10:00",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Burnhamthorpe Community Centre",
       "facility": "Burnhamthorpe CC Therapeutic Pool",
@@ -19350,6 +18220,56 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Oakville Trafalgar Community Centre",
+      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
+      "activity": "Endurance Training",
+      "date": "2026-07-05",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Aldershot Pool",
+      "facility": "Aldershot Pool",
+      "activity": "Shallow Aquafit 19+",
+      "date": "2026-07-05",
+      "start_time": "09:00",
+      "end_time": "09:45",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Aldershot Pool",
+      "facility": "Aldershot Pool",
+      "activity": "Water Running",
+      "date": "2026-07-05",
+      "start_time": "09:00",
+      "end_time": "09:55",
+      "source": "perfectmind"
+    },
+    {
+      "city": "YMCA",
+      "center": "YMCA Oakville",
+      "facility": "Leisure Pool",
+      "activity": "Family Swim",
+      "date": "2026-07-05",
+      "start_time": "09:00",
+      "end_time": "15:00",
+      "source": "static"
+    },
+    {
+      "city": "Burlington",
+      "center": "Angela Coughlan Pool",
+      "facility": "Angela Coughlan Pool",
+      "activity": "Female Only Swim (Combo/Leisure)",
+      "date": "2026-07-05",
+      "start_time": "09:30",
+      "end_time": "11:00",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Burnhamthorpe Community Centre",
       "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
@@ -19358,6 +18278,46 @@
       "start_time": "09:30",
       "end_time": "10:30",
       "source": "active_communities"
+    },
+    {
+      "city": "Burlington",
+      "center": "Mountainside Community Centre",
+      "facility": "Mountainside Community Centre",
+      "activity": "Fun Swim \u2013 Walk In Only: Online Reservation is not available",
+      "date": "2026-07-05",
+      "start_time": "09:45",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Mountainside Community Centre",
+      "facility": "Mountainside Community Centre",
+      "activity": "Lap Swim \u2013 Walk In Only: Online Reservation is not available ",
+      "date": "2026-07-05",
+      "start_time": "09:45",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Aldershot Pool",
+      "facility": "Aldershot Pool",
+      "activity": "Combo Swim",
+      "date": "2026-07-05",
+      "start_time": "10:00",
+      "end_time": "11:55",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "LaSalle Park",
+      "facility": "LaSalle Park",
+      "activity": "Leisure Swim \u2013 Walk In Only: Online Reservation is not available",
+      "date": "2026-07-05",
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -19370,6 +18330,16 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Brookdale Pool",
+      "facility": "Brookdale Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Burnhamthorpe Community Centre",
       "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
@@ -19380,6 +18350,16 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Bronte Pool",
+      "facility": "Bronte Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Mississauga Valley Community Centre",
       "facility": "Miss Valley CC Therapeutic Pool",
@@ -19388,6 +18368,86 @@
       "start_time": "11:00",
       "end_time": "12:00",
       "source": "active_communities"
+    },
+    {
+      "city": "Oakville",
+      "center": "Lions Pool",
+      "facility": "Lions Pool",
+      "activity": "Combo Swim",
+      "date": "2026-07-05",
+      "start_time": "11:30",
+      "end_time": "13:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Nelson Community Centre",
+      "facility": "Nelson Community Centre",
+      "activity": "Fun Swim- Walk in Only: Online reservation is not available",
+      "date": "2026-07-05",
+      "start_time": "11:45",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Angela Coughlan Pool",
+      "facility": "Angela Coughlan Pool",
+      "activity": "Lap Swim",
+      "date": "2026-07-05",
+      "start_time": "11:45",
+      "end_time": "13:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Angela Coughlan Pool",
+      "facility": "Angela Coughlan Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "11:45",
+      "end_time": "13:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Wedgewood Pool",
+      "facility": "Wedgewood Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Falgarwood Pool",
+      "facility": "Falgarwood Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Brookdale Pool",
+      "facility": "Brookdale Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Aldershot Pool",
+      "facility": "Aldershot Pool",
+      "activity": "Lap Swim",
+      "date": "2026-07-05",
+      "start_time": "12:00",
+      "end_time": "13:25",
+      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -19460,6 +18520,46 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Iroquois Ridge Community Centre",
+      "facility": "Iroquois Ridge Community Centre",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "12:15",
+      "end_time": "13:45",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Tansley Woods Community Centre",
+      "facility": "Tansley Woods Community Centre",
+      "activity": "Lap Swim",
+      "date": "2026-07-05",
+      "start_time": "12:15",
+      "end_time": "13:15",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Tansley Woods Community Centre",
+      "facility": "Tansley Woods Community Centre",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "12:15",
+      "end_time": "13:15",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Bronte Pool",
+      "facility": "Bronte Pool",
+      "activity": "Combo Swim",
+      "date": "2026-07-05",
+      "start_time": "12:30",
+      "end_time": "14:00",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Malton Community Centre",
       "facility": "Malton CC Therapeutic Pool",
@@ -19498,6 +18598,46 @@
       "start_time": "12:35",
       "end_time": "13:30",
       "source": "active_communities"
+    },
+    {
+      "city": "Oakville",
+      "center": "Queen Elizabeth Park Community and Cultural Centre",
+      "facility": "Queen Elizabeth Park Community and Cultural Centre",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Glen Abbey Community Centre",
+      "facility": "Glen Abbey Community Centre",
+      "activity": "Leisure Swim ",
+      "date": "2026-07-05",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Lions Pool",
+      "facility": "Lions Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Burlington",
+      "center": "Angela Coughlan Pool",
+      "facility": "Angela Coughlan Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-05",
+      "start_time": "13:05",
+      "end_time": "14:45",
+      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -19580,6 +18720,46 @@
       "source": "active_communities"
     },
     {
+      "city": "Burlington",
+      "center": "Tansley Woods Community Centre",
+      "facility": "Tansley Woods Community Centre",
+      "activity": "Access Storage - Free Swim",
+      "date": "2026-07-05",
+      "start_time": "13:20",
+      "end_time": "15:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Wedgewood Pool",
+      "facility": "Wedgewood Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Brookdale Pool",
+      "facility": "Brookdale Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Falgarwood Pool",
+      "facility": "Falgarwood Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Frank McKechnie Community Centre",
       "facility": "Frank McKechnie CC Main + Play Pool",
@@ -19600,6 +18780,26 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Iroquois Ridge Community Centre",
+      "facility": "Iroquois Ridge Community Centre",
+      "activity": "Combo Swim ",
+      "date": "2026-07-05",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Bronte Pool",
+      "facility": "Bronte Pool",
+      "activity": "Leisure Swim ",
+      "date": "2026-07-05",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Meadowvale Community Centre",
       "facility": "Meadowvale CC Main & Therapeutic Pool",
@@ -19618,6 +18818,16 @@
       "start_time": "14:05",
       "end_time": "15:30",
       "source": "active_communities"
+    },
+    {
+      "city": "Oakville",
+      "center": "Lions Pool",
+      "facility": "Lions Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "14:30",
+      "end_time": "16:00",
+      "source": "perfectmind"
     },
     {
       "city": "Mississauga",
@@ -19660,6 +18870,36 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Brookdale Pool",
+      "facility": "Brookdale Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Falgarwood Pool",
+      "facility": "Falgarwood Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Wedgewood Pool",
+      "facility": "Wedgewood Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Meadowvale Community Centre",
       "facility": "Meadowvale CC Main & Therapeutic Pool",
@@ -19680,6 +18920,56 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Oakville Trafalgar Community Centre",
+      "facility": "Oakville Trafalgar Community Centre-325 Reynolds",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Lions Pool",
+      "facility": "Lions Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Brookdale Pool",
+      "facility": "Brookdale Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Bronte Pool",
+      "facility": "Bronte Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Falgarwood Pool",
+      "facility": "Falgarwood Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Churchill Meadows Community Centre",
       "facility": "Churchill Mdws CC Therapeutic Pool",
@@ -19690,6 +18980,56 @@
       "source": "active_communities"
     },
     {
+      "city": "Oakville",
+      "center": "Wedgewood Pool",
+      "facility": "Wedgewood Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Falgarwood Pool",
+      "facility": "Falgarwood Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Bronte Pool",
+      "facility": "Bronte Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Brookdale Pool",
+      "facility": "Brookdale Pool",
+      "activity": "Leisure Swim",
+      "date": "2026-07-05",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Oakville",
+      "center": "Lions Pool",
+      "facility": "Lions Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
       "city": "Mississauga",
       "center": "Churchill Meadows Community Centre",
       "facility": "Churchill Mdws CC Main & Therap. Pool",
@@ -19697,6 +19037,1006 @@
       "date": "2026-07-05",
       "start_time": "18:40",
       "end_time": "20:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Oakville",
+      "center": "Wedgewood Pool",
+      "facility": "Wedgewood Pool",
+      "activity": "Length Swim",
+      "date": "2026-07-05",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "source": "perfectmind"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "06:30",
+      "end_time": "07:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "06:30",
+      "end_time": "07:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "06:30",
+      "end_time": "08:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "06:30",
+      "end_time": "08:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "06:30",
+      "end_time": "08:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Terry Fox Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "06:30",
+      "end_time": "09:25",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "River Grove Community Centre",
+      "facility": "River Grove CC Lap Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "06:30",
+      "end_time": "08:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "06:35",
+      "end_time": "08:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "06:35",
+      "end_time": "08:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Carmen Corbasson Community Centre",
+      "facility": "Carmen Corbasson CC Main & Therap. Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "06:45",
+      "end_time": "08:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "07:00",
+      "end_time": "08:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Frank McKechnie Community Centre",
+      "facility": "Frank McKechnie CC Main Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "07:00",
+      "end_time": "08:25",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "07:00",
+      "end_time": "08:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "07:00",
+      "end_time": "08:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "07:00",
+      "end_time": "08:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "07:00",
+      "end_time": "07:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Warm Water Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Main Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Therapeutic Pool",
+      "activity": "Drop In Shoulder, Back & Core H20",
+      "date": "2026-07-06",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Therapeutic Pool",
+      "activity": "Therapeutic Time",
+      "date": "2026-07-06",
+      "start_time": "08:30",
+      "end_time": "09:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Therapeutic Pool",
+      "activity": "Drop In Ai Chi",
+      "date": "2026-07-06",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Therapeutic Pool",
+      "activity": "Drop In Shoulder, Back & Core H20",
+      "date": "2026-07-06",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Therapeutic Pool",
+      "activity": "Drop In Warm Water Strength Training",
+      "date": "2026-07-06",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Therapeutic Pool",
+      "activity": "Drop In Oh My Aching Body",
+      "date": "2026-07-06",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Terry Fox Main Pool",
+      "activity": "Drop In Aquafitness",
+      "date": "2026-07-06",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Therapeutic Pool",
+      "activity": "Parent & Tot Swim",
+      "date": "2026-07-06",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Therapeutic Pool",
+      "activity": "Drop In Hip & Knee",
+      "date": "2026-07-06",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Therapeutic Pool",
+      "activity": "Drop In Hip & Knee",
+      "date": "2026-07-06",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Therapeutic Pool",
+      "activity": "Therapeutic Time",
+      "date": "2026-07-06",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Terry Fox Main Pool",
+      "activity": "Drop In Aqua Cycle",
+      "date": "2026-07-06",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Therapeutic Pool",
+      "activity": "Therapeutic Time",
+      "date": "2026-07-06",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "11:35",
+      "end_time": "12:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "11:35",
+      "end_time": "12:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Warm Water Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Therapeutic Pool",
+      "activity": "Drop In Oh My Aching Body",
+      "date": "2026-07-06",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Terry Fox Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "12:00",
+      "end_time": "13:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Carmen Corbasson Community Centre",
+      "facility": "Carmen Corbasson CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Carmen Corbasson Community Centre",
+      "facility": "Carmen Corbasson CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Main Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Frank McKechnie Community Centre",
+      "facility": "Frank McKechnie CC Main Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Frank McKechnie Community Centre",
+      "facility": "Frank McKechnie CC Play Pool",
+      "activity": "Parent & Tot Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "12:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "12:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "River Grove Community Centre",
+      "facility": "River Grove CC Lap Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "13:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "River Grove Community Centre",
+      "facility": "River Grove CC Leisure Pool",
+      "activity": "Parent & Tot Swim",
+      "date": "2026-07-06",
+      "start_time": "12:05",
+      "end_time": "12:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Main Pool",
+      "activity": "Drop In Aquafitness",
+      "date": "2026-07-06",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Drop In Oh My Aching Body",
+      "date": "2026-07-06",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "12:35",
+      "end_time": "14:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "12:35",
+      "end_time": "13:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Warm Water Pool",
+      "activity": "Therapeutic Time",
+      "date": "2026-07-06",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Therapeutic Pool",
+      "activity": "Drop In Hip & Knee",
+      "date": "2026-07-06",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Therapeutic Pool",
+      "activity": "Therapeutic Time",
+      "date": "2026-07-06",
+      "start_time": "13:30",
+      "end_time": "14:25",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Main Pool",
+      "activity": "Drop In Water Running",
+      "date": "2026-07-06",
+      "start_time": "13:30",
+      "end_time": "14:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Main Pool",
+      "activity": "Drop In Aquafitness",
+      "date": "2026-07-06",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "River Grove Community Centre",
+      "facility": "River Grove CC Main Pool (Leisure/Lap)",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "14:05",
+      "end_time": "15:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Carmen Corbasson Community Centre",
+      "facility": "Carmen Corbasson CC Main & Therap. Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "14:15",
+      "end_time": "15:45",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Parent & Tot Swim",
+      "date": "2026-07-06",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Main + Warm Water Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "14:35",
+      "end_time": "16:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Erin Meadows Community Centre",
+      "facility": "Erin Meadows CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "14:45",
+      "end_time": "16:25",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Main Pool",
+      "activity": "Drop In Deep End Aquafitness",
+      "date": "2026-07-06",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Main + Therapeutic Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "15:00",
+      "end_time": "16:25",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Main & Therapeutic Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "15:00",
+      "end_time": "16:25",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Main + Therapeutic Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "15:05",
+      "end_time": "16:25",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Erin Meadows Community Centre",
+      "facility": "Erin Meadows CC Play Pool",
+      "activity": "Parent & Tot Swim",
+      "date": "2026-07-06",
+      "start_time": "15:30",
+      "end_time": "16:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Main & Therap. Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "15:30",
+      "end_time": "16:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Carmen Corbasson Community Centre",
+      "facility": "Carmen Corbasson CC Therapeutic Pool",
+      "activity": "Drop In Shoulder, Back & Core H20",
+      "date": "2026-07-06",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Therapeutic Time",
+      "date": "2026-07-06",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Therapeutic Time",
+      "date": "2026-07-06",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Therapeutic Pool",
+      "activity": "Drop In Oh My Aching Body",
+      "date": "2026-07-06",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Drop In Oh My Aching Body",
+      "date": "2026-07-06",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
+      "activity": "Drop In Aquafitness",
+      "date": "2026-07-06",
+      "start_time": "18:30",
+      "end_time": "19:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Drop In Warm Water Aquatic Strength Training",
+      "date": "2026-07-06",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Main + Warm Water Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "19:05",
+      "end_time": "20:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Main & Therapeutic Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "19:30",
+      "end_time": "20:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Main + Therapeutic Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "19:35",
+      "end_time": "20:55",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Main + Therapeutic Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "19:35",
+      "end_time": "20:45",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Main & Therapeutic Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "19:35",
+      "end_time": "21:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Main & Therap. Pool",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "19:35",
+      "end_time": "21:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "River Grove Community Centre",
+      "facility": "River Grove CC Main Pool (Leisure/Lap)",
+      "activity": "Fun Swim",
+      "date": "2026-07-06",
+      "start_time": "19:35",
+      "end_time": "21:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Erin Meadows Community Centre",
+      "facility": "Erin Meadows CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "20:05",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Frank McKechnie Community Centre",
+      "facility": "Frank McKechnie CC Main Pool",
+      "activity": "Lane & Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "20:05",
+      "end_time": "21:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Warm Water Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Clarkson Community Centre",
+      "facility": "Clarkson CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "20:35",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Churchill Meadows Community Centre",
+      "facility": "Churchill Mdws CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "20:35",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "20:50",
+      "end_time": "21:45",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Malton Community Centre",
+      "facility": "Malton CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "20:50",
+      "end_time": "21:45",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Burnhamthorpe Community Centre",
+      "facility": "Burnhamthorpe CC Main Pool (Leisure/Lap)",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Carmen Corbasson Community Centre",
+      "facility": "Carmen Corbasson CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "21:05",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Huron Park Recreation Centre",
+      "facility": "Huron Park RC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "21:05",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "21:05",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Meadowvale Community Centre",
+      "facility": "Meadowvale CC Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "21:05",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Therapeutic Pool",
+      "activity": "Adult Leisure Swim",
+      "date": "2026-07-06",
+      "start_time": "21:05",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "Mississauga Valley Community Centre",
+      "facility": "Miss Valley CC Terry Fox Main Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "21:05",
+      "end_time": "22:00",
+      "source": "active_communities"
+    },
+    {
+      "city": "Mississauga",
+      "center": "River Grove Community Centre",
+      "facility": "River Grove CC Lap Pool",
+      "activity": "Lane Swim",
+      "date": "2026-07-06",
+      "start_time": "21:05",
+      "end_time": "21:55",
       "source": "active_communities"
     }
   ]
